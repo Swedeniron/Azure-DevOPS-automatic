@@ -25,13 +25,13 @@ Go to the dir where the script are
 
 Get-ExecutionPolicy -List
 
-Scope ExecutionPolicy
------------------------------
+        Scope ExecutionPolicy
+        ----- ---------------
 MachinePolicy       Undefined
-UserPolicy          Undefined
-Process             Undefined
-CurrentUser         Undefined
-LocalMachine        RemoteSigned
+   UserPolicy       Undefined
+      Process       Undefined
+  CurrentUser       Undefined
+ LocalMachine    RemoteSigned
 
 Change the RemoteSigned Policy:
 
@@ -47,10 +47,10 @@ List the Policy again:
 
 Get-ExecutionPolicy -List
 
-Scope ExecutionPolicy
------------------------------
+        Scope ExecutionPolicy
+        ----- ---------------
 MachinePolicy       Undefined
-UserPolicy          Undefined
-Process             Undefined
-CurrentUser         Undefined
-LocalMachine        Unrestricted
+   UserPolicy       Undefined
+      Process       Undefined
+  CurrentUser       Undefined
+ LocalMachine    Unrestricted
