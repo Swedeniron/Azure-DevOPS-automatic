@@ -28,10 +28,10 @@ Get-ExecutionPolicy -List
 ### Scope ExecutionPolicy
 -----------------------------
 MachinePolicy       Undefined
-   UserPolicy       Undefined
-      Process       Undefined
-  CurrentUser       Undefined
- LocalMachine    RemoteSigned
+UserPolicy          Undefined
+Process             Undefined
+CurrentUser         Undefined
+LocalMachine        RemoteSigned
 
 Change the RemoteSigned Policy:
 
@@ -50,7 +50,7 @@ Get-ExecutionPolicy -List
 ### Scope ExecutionPolicy
 -----------------------------
 MachinePolicy       Undefined
-   UserPolicy       Undefined
-      Process       Undefined
-  CurrentUser       Undefined
- LocalMachine    Unrestricted
+UserPolicy          Undefined
+Process             Undefined
+CurrentUser         Undefined
+LocalMachine        Unrestricted
