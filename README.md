@@ -25,7 +25,7 @@ Go to the dir where the script are
 
 Get-ExecutionPolicy -List
 
-Scope ExecutionPolicy
+### Scope ExecutionPolicy
 -----------------------------
 MachinePolicy       Undefined
    UserPolicy       Undefined
@@ -47,7 +47,7 @@ List the Policy again:
 
 Get-ExecutionPolicy -List
 
-Scope ExecutionPolicy
+### Scope ExecutionPolicy
 -----------------------------
 MachinePolicy       Undefined
    UserPolicy       Undefined
